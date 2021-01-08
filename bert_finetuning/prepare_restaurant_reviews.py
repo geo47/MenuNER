@@ -1,4 +1,3 @@
-import json
 from tqdm import tqdm
 import spacy
 import argparse
@@ -12,13 +11,14 @@ args = parser.parse_args()
 
 max_sentences = int(10e5)
 review_limit = int(150000)
-if args.large:
-    review_limit = int(2500000)  # for 10 Mio Corpus
-    max_sentences = int(15e6)  # for 10 Mio corpus
+
+if args.large:  # for 10 Mio Corpus
+    review_limit = int(2500000)
+    max_sentences = int(15e6)
 
 nlp = spacy.load('en_core_web_sm')
 nlp.add_pipe(nlp.create_pipe('sentencizer'))
-# fn = 'data/raw/review.json'
+
 fn = '/home/muzamil/Dataset/food/Text/MyData/test_data/reviews_indo.txt'
 reviews = []
 
@@ -27,13 +27,12 @@ with open(fn) as data_file:
     counter = 0
     for line in data_file:
         counter += 1
-        # reviews.append(json.loads(line)['text'])
         reviews.append(line)
         # if counter == review_limit:
         #     break
 
 
-# get sentence segemented review with #sentences > 2
+# get sentence segmented review with #sentences > 2
 def sentence_segment_filter_docs(doc_array):
     sentences = []
 
@@ -55,7 +54,6 @@ print(f'Segmented {nr_sents} restaurant sentences')
 
 # Save to file
 fn_out = f'/home/muzamil/Dataset/food/Text/MyData/test_data/restaurant_corpus_indo.txt'
-# fn_out = f'/home/muzamil/Projects/My Notebooks/restaurant_corpus_{max_sentences}.txt'
 with open(fn_out, "w") as f:
     sent_count = 0
     for sents in tqdm(sentences):
@@ -63,9 +61,6 @@ with open(fn_out, "w") as f:
         for s in sents:
             x = s.replace(' ', '').replace('\n', '').replace('\u200d', '').replace('\u200b', '')
             if x != '':
-                if s=="By far the best Avacado bread I have ever had.":
-                    print(sents)
-                    pass
                 real_sents.append(s.replace('\n', '').replace('\u200d', '').replace('\u200b', ''))
         if len(real_sents) >= 2:
             sent_count += len(real_sents)

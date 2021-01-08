@@ -18,7 +18,7 @@
 16,with,with,O,O
 17,an,an,O,O
 18,uninspired,uninspired,O,O
-19,chicken,chicken,O,I-MENU
+19,chicken,chicken,O,O
 20,or,or,O,O
 21,fish,fish,B-MENU,B-MENU
 22,",",",",O,O
@@ -461,7 +461,7 @@
 459,the,the,O,O
 460,Spinach,Spinach,B-MENU,B-MENU
 461,Paneer,Paneer,I-MENU,I-MENU
-462,wrap,wrap,O,I-MENU
+462,wrap,wrap,O,O
 463,thinking,thinking,O,O
 464,"""","""",O,O
 465,I,I,O,O
@@ -487,8 +487,8 @@
 485,wrap,wrap,O,O
 486,.,.,O,O
 487,The,The,O,O
-488,mixed,mixed,O,B-MENU
-489,vegetables,vegetables,O,I-MENU
+488,mixed,mixed,O,O
+489,vegetables,vegetables,O,O
 490,were,were,O,O
 491,very,very,O,O
 492,salty,salty,O,O
@@ -516,7 +516,7 @@
 514,The,The,O,O
 515,tandoori,tandoori,B-MENU,B-MENU
 516,chicken,chicken,I-MENU,I-MENU
-517,wrap,wrap,O,I-MENU
+517,wrap,wrap,O,O
 518,was,was,O,O
 519,pretty,pretty,O,O
 520,solid,solid,O,O
@@ -687,8 +687,8 @@
 685,amazing,amazing,O,O
 686,and,and,O,O
 687,their,their,O,O
-688,spicy,spicy,O,O
-689,sauce,sauce,B-MENU,O
+688,spicy,spicy,O,B-MENU
+689,sauce,sauce,B-MENU,B-MENU
 690,is,is,O,O
 691,bomb.Love,bomb.Love,O,O
 692,the,the,O,O
@@ -728,7 +728,7 @@
 726,staying,staying,O,O
 727,away,away,O,O
 728,from,from,O,O
-729,Soda's,Soda's,O,O
+729,Soda's,Soda's,O,B-MENU
 730,and,and,O,O
 731,get,get,O,O
 732,water,water,O,O
@@ -1214,7 +1214,7 @@
 1212,Bhel,Bhel,B-MENU,B-MENU
 1213,Puri,Puri,I-MENU,I-MENU
 1214,&,&,O,O
-1215,Chana,Chana,B-MENU,I-MENU
+1215,Chana,Chana,B-MENU,B-MENU
 1216,Chaat,Chaat,I-MENU,I-MENU
 1217,so,so,O,O
 1218,when,when,O,O
@@ -1268,7 +1268,7 @@
 1266,of,of,O,O
 1267,',',O,O
 1268,Bro,Bro,O,B-MENU
-1269,Bowls,Bowls,O,O
+1269,Bowls,Bowls,O,I-MENU
 1270,',',O,O
 1271,where,where,O,O
 1272,you,you,O,O
@@ -1423,7 +1423,7 @@
 1421,sparkling,sparkling,O,O
 1422,with,with,O,O
 1423,',',O,O
-1424,ghee,ghee,O,B-MENU
+1424,ghee,ghee,O,O
 1425,',',O,O
 1426,(,(,O,O
 1427,clarified,clarified,O,O
@@ -1891,7 +1891,7 @@
 1889,the,the,O,O
 1890,words,words,O,O
 1891,',',O,O
-1892,vegetable,vegetable,O,O
+1892,vegetable,vegetable,O,B-MENU
 1893,chat,chat,O,I-MENU
 1894,',',O,O
 1895,caught,caught,O,O
@@ -1901,7 +1901,7 @@
 1899,the,the,O,O
 1900,menu,menu,O,O
 1901,.,.,O,O
-1902,Vegetable,Vegetable,B-MENU,O
+1902,Vegetable,Vegetable,B-MENU,B-MENU
 1903,chat,chat,I-MENU,I-MENU
 1904,is,is,O,O
 1905,this,this,O,O
@@ -1965,8 +1965,8 @@
 1963,less-mayonnaise-d,less-mayonnaise-d,O,O
 1964,version,version,O,O
 1965,of,of,O,O
-1966,potato,potato,B-MENU,O
-1967,salad,salad,I-MENU,B-MENU
+1966,potato,potato,B-MENU,B-MENU
+1967,salad,salad,I-MENU,I-MENU
 1968,.,.,O,O
 1969,Oh,Oh,O,O
 1970,",",",",O,O
@@ -2590,7 +2590,7 @@
 2588,SmritiIf,SmritiIf,O,O
 2589,the,the,O,O
 2590,Union,Union,O,O
-2591,Grill,Grill,O,O
+2591,Grill,Grill,O,I-MENU
 2592,across,across,O,O
 2593,the,the,O,O
 2594,street,street,O,O
@@ -2614,7 +2614,7 @@
 2612,a,a,O,O
 2613,coconut,coconut,B-MENU,B-MENU
 2614,shrimp,shrimp,I-MENU,I-MENU
-2615,dish,dish,O,O
+2615,dish,dish,O,I-MENU
 2616,and,and,O,O
 2617,the,the,O,O
 2618,shrimp,shrimp,B-MENU,O
@@ -2676,7 +2676,7 @@
 2674,My,My,O,O
 2675,GF's,GF's,O,O
 2676,dish,dish,O,O
-2677,saag,saag,B-MENU,I-MENU
+2677,saag,saag,B-MENU,B-MENU
 2678,lamb,lamb,I-MENU,I-MENU
 2679,tasted,tasted,O,O
 2680,a,a,O,O
@@ -4060,7 +4060,7 @@
 4058,olive,olive,O,O
 4059,oil,oil,O,O
 4060,.,.,O,O
-4061,Fragrant,Fragrant,O,O
+4061,Fragrant,Fragrant,O,B-MENU
 4062,mango,mango,B-MENU,B-MENU
 4063,lassis,lassis,I-MENU,I-MENU
 4064,.,.,O,O
@@ -4243,7 +4243,7 @@
 4241,up,up,O,O
 4242,!,!,O,O
 4243,The,The,O,O
-4244,soup,soup,B-MENU,O
+4244,soup,soup,B-MENU,B-MENU
 4245,was,was,O,O
 4246,also,also,O,O
 4247,pretty,pretty,O,O
@@ -4568,7 +4568,7 @@
 4566,flavor,flavor,O,O
 4567,of,of,O,O
 4568,the,the,O,O
-4569,sauce,sauce,B-MENU,B-MENU
+4569,sauce,sauce,B-MENU,O
 4570,that,that,O,O
 4571,came,came,O,O
 4572,with,with,O,O
@@ -5223,7 +5223,7 @@
 5221,a,a,O,O
 5222,couple,couple,O,O
 5223,of,of,O,O
-5224,Kingfishers,Kingfishers,O,O
+5224,Kingfishers,Kingfishers,O,B-MENU
 5225,and,and,O,O
 5226,some,some,O,O
 5227,lamb,lamb,B-MENU,B-MENU
@@ -5352,7 +5352,7 @@
 5350,a,a,O,O
 5351,side,side,O,O
 5352,of,of,O,O
-5353,basmati,basmati,O,B-MENU
+5353,basmati,basmati,O,O
 5354,",",",",O,O
 5355,but,but,O,O
 5356,I,I,O,O
@@ -5754,7 +5754,7 @@
 5752,new,new,O,O
 5753,year.I,year.I,O,O
 5754,ordered,ordered,O,O
-5755,Checkin,Checkin,B-MENU,B-MENU
+5755,Checkin,Checkin,B-MENU,O
 5756,Baryani,Baryani,I-MENU,B-MENU
 5757,and,and,O,O
 5758,it,it,O,O
@@ -6003,7 +6003,7 @@
 6001,mostly,mostly,O,O
 6002,bones,bones,O,O
 6003,",",",",O,O
-6004,cheese,cheese,O,B-MENU
+6004,cheese,cheese,O,O
 6005,(,(,O,O
 6006,paneer,paneer,O,I-MENU
 6007,),),O,O
@@ -6462,7 +6462,7 @@
 6460,a,a,O,O
 6461,house,house,O,O
 6462,made,made,O,O
-6463,tarragon,tarragon,B-MENU,B-MENU
+6463,tarragon,tarragon,B-MENU,O
 6464,sauce,sauce,I-MENU,I-MENU
 6465,.,.,O,O
 6466,For,For,O,O
@@ -7527,7 +7527,7 @@
 7525,and,and,O,O
 7526,the,the,O,O
 7527,chat,chat,B-MENU,B-MENU
-7528,papri,papri,I-MENU,B-MENU
+7528,papri,papri,I-MENU,I-MENU
 7529,to,to,O,O
 7530,start,start,O,O
 7531,",",",",O,O
@@ -9343,7 +9343,7 @@
 9341,Korma,Korma,I-MENU,I-MENU
 9342,and,and,O,O
 9343,the,the,O,O
-9344,Mulligatawny,Mulligatawny,B-MENU,I-MENU
+9344,Mulligatawny,Mulligatawny,B-MENU,B-MENU
 9345,and,and,O,O
 9346,i,i,O,O
 9347,have,have,O,O
@@ -9498,7 +9498,7 @@
 9496,Solid,Solid,O,O
 9497,collection,collection,O,O
 9498,of,of,O,O
-9499,meat,meat,O,B-MENU
+9499,meat,meat,O,O
 9500,curries,curries,O,I-MENU
 9501,:,:,O,O
 9502,butter,butter,B-MENU,B-MENU
@@ -9510,7 +9510,7 @@
 9508,(,(,O,O
 9509,on,on,O,O
 9510,the,the,O,O
-9511,tawa,tawa,O,B-MENU
+9511,tawa,tawa,O,O
 9512,nonetheless,nonetheless,O,O
 9513,;,;,O,O
 9514,their,their,O,O
@@ -9543,7 +9543,7 @@
 9541,chewy,chewy,O,O
 9542,",",",",O,O
 9543,but,but,O,O
-9544,curry,curry,O,O
+9544,curry,curry,O,B-MENU
 9545,was,was,O,O
 9546,flavorful,flavorful,O,O
 9547,),),O,O
@@ -9814,7 +9814,7 @@
 9812,seconds,seconds,O,O
 9813,",",",",O,O
 9814,the,the,O,O
-9815,paneer,paneer,O,O
+9815,paneer,paneer,O,B-MENU
 9816,was,was,O,O
 9817,too,too,O,O
 9818,spinach-y,spinach-y,O,O
@@ -10385,8 +10385,8 @@
 10383,naan,naan,B-MENU,B-MENU
 10384,(,(,O,O
 10385,The,The,O,O
-10386,regular,regular,B-MENU,O
-10387,naan,naan,I-MENU,B-MENU
+10386,regular,regular,B-MENU,B-MENU
+10387,naan,naan,I-MENU,I-MENU
 10388,bread,bread,I-MENU,I-MENU
 10389,they,they,O,O
 10390,do,do,O,O
@@ -10792,7 +10792,7 @@
 10790,like,like,O,O
 10791,mutton,mutton,B-MENU,O
 10792,",",",",I-MENU,O
-10793,paneer,paneer,I-MENU,B-MENU
+10793,paneer,paneer,I-MENU,O
 10794,",",",",O,O
 10795,were,were,O,O
 10796,at,at,O,O
@@ -10925,7 +10925,7 @@
 10923,later,later,O,O
 10924,from,from,O,O
 10925,the,the,O,O
-10926,soup,soup,O,O
+10926,soup,soup,O,B-MENU
 10927,!,!,O,O
 10928,Its,Its,O,O
 10929,a,a,O,O
@@ -11090,9 +11090,9 @@
 11088,generally,generally,O,O
 11089,love,love,O,O
 11090,the,the,O,O
-11091,chicken,chicken,O,B-MENU
+11091,chicken,chicken,O,O
 11092,and,and,O,I-MENU
-11093,lamb,lamb,O,O
+11093,lamb,lamb,O,I-MENU
 11094,dishes,dishes,O,O
 11095,at,at,O,O
 11096,the,the,O,O
@@ -12263,8 +12263,8 @@
 12261,",",",",O,O
 12262,the,the,O,O
 12263,usual,usual,O,O
-12264,chicken,chicken,O,B-MENU
-12265,dishes,dishes,O,I-MENU
+12264,chicken,chicken,O,O
+12265,dishes,dishes,O,O
 12266,plus,plus,O,O
 12267,goat,goat,O,B-MENU
 12268,",",",",O,I-MENU
@@ -12291,8 +12291,8 @@
 12289,a,a,O,O
 12290,chicken,chicken,B-MENU,B-MENU
 12291,and,and,I-MENU,I-MENU
-12292,spinach,spinach,I-MENU,O
-12293,dish,dish,I-MENU,O
+12292,spinach,spinach,I-MENU,I-MENU
+12293,dish,dish,I-MENU,I-MENU
 12294,with,with,O,O
 12295,lovely,lovely,O,O
 12296,spices,spices,O,O
@@ -12559,11 +12559,11 @@
 12557,of,of,O,O
 12558,variety,variety,O,O
 12559,(,(,O,O
-12560,chicken,chicken,B-MENU,O
+12560,chicken,chicken,B-MENU,B-MENU
 12561,",",",",I-MENU,I-MENU
-12562,beef,beef,I-MENU,O
-12563,",",",",I-MENU,O
-12564,goat,goat,I-MENU,O
+12562,beef,beef,I-MENU,I-MENU
+12563,",",",",I-MENU,I-MENU
+12564,goat,goat,I-MENU,I-MENU
 12565,",",",",I-MENU,O
 12566,fish,fish,I-MENU,B-MENU
 12567,),),O,O
@@ -13076,7 +13076,7 @@
 13074,.,.,O,O
 13075,We,We,O,O
 13076,got,got,O,O
-13077,burnt,burnt,O,O
+13077,burnt,burnt,O,B-MENU
 13078,naan,naan,B-MENU,B-MENU
 13079,.,.,O,O
 13080,I,I,O,O
@@ -13355,7 +13355,7 @@
 13353,ice,ice,B-MENU,B-MENU
 13354,cream,cream,I-MENU,I-MENU
 13355,and,and,O,O
-13356,pistachios,pistachios,O,B-MENU
+13356,pistachios,pistachios,O,O
 13357,-,-,O,O
 13358,try,try,O,O
 13359,it,it,O,O
@@ -13384,7 +13384,7 @@
 13382,Cup,Cup,O,O
 13383,and,and,O,O
 13384,Subway,Subway,O,O
-13385,Sandwich,Sandwich,O,B-MENU
+13385,Sandwich,Sandwich,O,O
 13386,shop,shop,O,O
 13387,.,.,O,O
 13388,This,This,O,O
@@ -13621,7 +13621,7 @@
 13619,solidified,solidified,O,O
 13620,into,into,O,O
 13621,a,a,O,O
-13622,lentil,lentil,O,B-MENU
+13622,lentil,lentil,O,O
 13623,crust,crust,O,O
 13624,.,.,O,O
 13625,The,The,O,O
@@ -13651,7 +13651,7 @@
 13649,dig,dig,O,O
 13650,through,through,O,O
 13651,the,the,O,O
-13652,sauce,sauce,B-MENU,B-MENU
+13652,sauce,sauce,B-MENU,O
 13653,to,to,O,O
 13654,find,find,O,O
 13655,just,just,O,O
@@ -13710,7 +13710,7 @@
 13708,They,They,O,O
 13709,bring,bring,O,O
 13710,the,the,O,O
-13711,nan,nan,O,O
+13711,nan,nan,O,B-MENU
 13712,out,out,O,O
 13713,from,from,O,O
 13714,the,the,O,O
@@ -14491,7 +14491,7 @@
 14489,and,and,O,O
 14490,hot,hot,O,O
 14491,buttery,buttery,B-MENU,B-MENU
-14492,garlic,garlic,I-MENU,B-MENU
+14492,garlic,garlic,I-MENU,I-MENU
 14493,naan,naan,I-MENU,I-MENU
 14494,bread,bread,I-MENU,I-MENU
 14495,",",",",O,O
@@ -16042,7 +16042,7 @@
 16040,diet,diet,B-MENU,O
 16041,coke,coke,I-MENU,O
 16042,",",",",O,O
-16043,coke,coke,O,O
+16043,coke,coke,O,B-MENU
 16044,and,and,O,O
 16045,2,2,O,O
 16046,beers,beers,B-MENU,O
@@ -16805,7 +16805,7 @@
 16803,we,we,O,O
 16804,ordered,ordered,O,O
 16805,:,:,O,O
-16806,Appetizer,Appetizer,O,O
+16806,Appetizer,Appetizer,O,B-MENU
 16807,platter,platter,O,I-MENU
 16808,-,-,O,O
 16809,Onion,Onion,B-MENU,B-MENU
@@ -16860,7 +16860,7 @@
 16858,I,I,O,O
 16859,liked,liked,O,O
 16860,the,the,O,O
-16861,sauce,sauce,O,B-MENU
+16861,sauce,sauce,O,O
 16862,but,but,O,O
 16863,the,the,O,O
 16864,chicken,chicken,O,O
@@ -17549,7 +17549,7 @@
 17547,beef,beef,O,O
 17548,",",",",O,O
 17549,fish,fish,O,B-MENU
-17550,and,and,O,I-MENU
+17550,and,and,O,O
 17551,chicken,chicken,O,O
 17552,!,!,O,O
 17553,Pretty,Pretty,O,O
@@ -17660,7 +17660,7 @@
 17658,Chana,Chana,O,B-MENU
 17659,Masala,Masala,O,I-MENU
 17660,(,(,O,O
-17661,chickpeas,chickpeas,O,B-MENU
+17661,chickpeas,chickpeas,O,O
 17662,),),O,O
 17663,;,;,O,O
 17664,-,-,O,O
@@ -17737,7 +17737,7 @@
 17735,already,already,O,O
 17736,gone,gone,O,O
 17737,",",",",O,O
-17738,rice,rice,O,O
+17738,rice,rice,O,B-MENU
 17739,was,was,O,O
 17740,very,very,O,O
 17741,little,little,O,O
@@ -17986,8 +17986,8 @@
 17984,a,a,O,O
 17985,fan,fan,O,O
 17986,of,of,O,O
-17987,rice,rice,B-MENU,O
-17988,pudding,pudding,I-MENU,O
+17987,rice,rice,B-MENU,B-MENU
+17988,pudding,pudding,I-MENU,I-MENU
 17989,",",",",O,O
 17990,Gulab,Gulab,B-MENU,B-MENU
 17991,Jamun,Jamun,I-MENU,I-MENU
@@ -18375,7 +18375,7 @@
 18373,dessert,dessert,O,O
 18374,",",",",O,O
 18375,and,and,O,O
-18376,regular,regular,O,O
+18376,regular,regular,O,B-MENU
 18377,chocolate,chocolate,B-MENU,I-MENU
 18378,",",",",I-MENU,O
 18379,vanilla,vanilla,I-MENU,B-MENU
@@ -18418,7 +18418,7 @@
 18416,seafood,seafood,O,O
 18417,and,and,O,O
 18418,vegetarian,vegetarian,O,O
-18419,dishes,dishes,O,O
+18419,dishes,dishes,O,I-MENU
 18420,.,.,O,O
 18421,Still,Still,O,O
 18422,a,a,O,O
@@ -18506,7 +18506,7 @@
 18504,rice,rice,O,B-MENU
 18505,and,and,O,O
 18506,garlic,garlic,O,B-MENU
-18507,flavoured,flavoured,O,I-MENU
+18507,flavoured,flavoured,O,O
 18508,naan,naan,B-MENU,B-MENU
 18509,.,.,O,O
 18510,.,.,O,O
@@ -18605,7 +18605,7 @@
 18603,better,better,O,O
 18604,version,version,O,O
 18605,of,of,O,O
-18606,garlic,garlic,B-MENU,O
+18606,garlic,garlic,B-MENU,B-MENU
 18607,bread,bread,I-MENU,O
 18608,.,.,O,O
 18609,.,.,O,O
@@ -18982,7 +18982,7 @@
 18980,was,was,O,O
 18981,the,the,O,O
 18982,best,best,O,O
-18983,fish,fish,O,O
+18983,fish,fish,O,B-MENU
 18984,preparation,preparation,O,O
 18985,I've,I've,O,O
 18986,eaten,eaten,O,O
@@ -19275,8 +19275,8 @@
 19273,that,that,O,O
 19274,really,really,O,O
 19275,enjoys,enjoys,O,O
-19276,hot,hot,B-MENU,O
-19277,sauce,sauce,I-MENU,O
+19276,hot,hot,B-MENU,B-MENU
+19277,sauce,sauce,I-MENU,I-MENU
 19278,but,but,O,O
 19279,rather,rather,O,O
 19280,like,like,O,O
@@ -19549,8 +19549,8 @@
 19547,vibe.Saab,vibe.Saab,O,O
 19548,ko,ko,O,I-MENU
 19549,peechay,peechay,O,I-MENU
-19550,chor,chor,O,I-MENU
-19551,diya,diya,O,O
+19550,chor,chor,O,B-MENU
+19551,diya,diya,O,I-MENU
 19552,hai,hai,O,I-MENU
 19553,!,!,O,O
 19554,If,If,O,O
@@ -19577,7 +19577,7 @@
 19575,for,for,O,O
 19576,the,the,O,O
 19577,best,best,O,O
-19578,desi,desi,O,O
+19578,desi,desi,O,B-MENU
 19579,kabab,kabab,B-MENU,I-MENU
 19580,tikka,tikka,I-MENU,I-MENU
 19581,paratha,paratha,I-MENU,I-MENU
@@ -20121,7 +20121,7 @@
 20119,!,!,O,O
 20120,Excellent,Excellent,O,O
 20121,Dal,Dal,O,B-MENU
-20122,fry,fry,O,O
+20122,fry,fry,O,I-MENU
 20123,loaded,loaded,O,O
 20124,with,with,O,O
 20125,rogan,rogan,O,B-MENU
@@ -20132,7 +20132,7 @@
 20130,best,best,O,O
 20131,Chana,Chana,B-MENU,B-MENU
 20132,Dal,Dal,I-MENU,I-MENU
-20133,Fry,Fry,I-MENU,O
+20133,Fry,Fry,I-MENU,I-MENU
 20134,in,in,O,O
 20135,Canada,Canada,O,O
 20136,.,.,O,O
@@ -20430,7 +20430,7 @@
 20428,Bihari,Bihari,B-MENU,B-MENU
 20429,kabab,kabab,I-MENU,I-MENU
 20430,and,and,O,O
-20431,seeks,seeks,B-MENU,O
+20431,seeks,seeks,B-MENU,B-MENU
 20432,kabab,kabab,I-MENU,B-MENU
 20433,also,also,O,O
 20434,good,good,O,O
@@ -21196,10 +21196,10 @@
 21194,",",",",I-MENU,I-MENU
 21195,beef,beef,I-MENU,I-MENU
 21196,",",",",I-MENU,I-MENU
-21197,goat,goat,I-MENU,B-MENU
+21197,goat,goat,I-MENU,I-MENU
 21198,",",",",I-MENU,I-MENU
 21199,fish,fish,I-MENU,B-MENU
-21200,and,and,I-MENU,I-MENU
+21200,and,and,I-MENU,O
 21201,vegetarian,vegetarian,I-MENU,O
 21202,.,.,O,O
 21203,I,I,O,O
@@ -21262,7 +21262,7 @@
 21260,with,with,O,O
 21261,rice,rice,B-MENU,B-MENU
 21262,or,or,O,O
-21263,rotis,rotis,B-MENU,B-MENU
+21263,rotis,rotis,B-MENU,O
 21264,that,that,O,O
 21265,I,I,O,O
 21266,already,already,O,O
@@ -21526,7 +21526,7 @@
 21524,:,:,O,O
 21525,Nihari,Nihari,B-MENU,B-MENU
 21526,",",",",O,O
-21527,Haleem,Haleem,B-MENU,O
+21527,Haleem,Haleem,B-MENU,B-MENU
 21528,(,(,O,O
 21529,not,not,O,O
 21530,always,always,O,O
@@ -21688,7 +21688,7 @@
 21686,the,the,O,O
 21687,chicken,chicken,O,O
 21688,",",",",O,O
-21689,Lollypop,Lollypop,B-MENU,O
+21689,Lollypop,Lollypop,B-MENU,B-MENU
 21690,Chicken,Chicken,I-MENU,I-MENU
 21691,is,is,O,O
 21692,great,great,O,O
@@ -21699,7 +21699,7 @@
 21697,I,I,O,O
 21698,also,also,O,O
 21699,enjoy,enjoy,O,O
-21700,Shami,Shami,B-MENU,O
+21700,Shami,Shami,B-MENU,B-MENU
 21701,Kabab,Kabab,I-MENU,I-MENU
 21702,.,.,O,O
 21703,If,If,O,O
@@ -21977,7 +21977,7 @@
 21975,a,a,O,O
 21976,"""","""",O,O
 21977,regular,regular,O,B-MENU
-21978,biriyani,biriyani,O,B-MENU
+21978,biriyani,biriyani,O,I-MENU
 21979,"""","""",O,O
 21980,(,(,O,O
 21981,read,read,O,O
@@ -23133,7 +23133,7 @@
 23131,Butter,Butter,B-MENU,B-MENU
 23132,Chicken,Chicken,I-MENU,I-MENU
 23133,-,-,O,O
-23134,Punjabi,Punjabi,B-MENU,O
+23134,Punjabi,Punjabi,B-MENU,B-MENU
 23135,Kadi,Kadi,I-MENU,I-MENU
 23136,no,no,O,O
 23137,tangyness,tangyness,O,O
@@ -23247,7 +23247,7 @@
 23245,a,a,O,O
 23246,heavy,heavy,O,O
 23247,cream,cream,B-MENU,O
-23248,sauce,sauce,I-MENU,I-MENU
+23248,sauce,sauce,I-MENU,O
 23249,-,-,O,O
 23250,with,with,O,O
 23251,really,really,O,O
@@ -23310,7 +23310,7 @@
 23308,chick,chick,O,O
 23309,peas,peas,O,O
 23310,",",",",O,O
-23311,yogurt,yogurt,O,B-MENU
+23311,yogurt,yogurt,O,O
 23312,",",",",O,O
 23313,tamarind,tamarind,O,O
 23314,",",",",O,O
@@ -23339,7 +23339,7 @@
 23337,wine,wine,O,O
 23338,:,:,O,O
 23339,Pinot,Pinot,O,O
-23340,Gris,Gris,O,O
+23340,Gris,Gris,O,I-MENU
 23341,Cons,Cons,O,O
 23342,:,:,O,O
 23343,this,this,O,O
@@ -23620,11 +23620,11 @@
 23618,",",",",O,O
 23619,du,du,O,O
 23620,pain,pain,O,O
-23621,naan,naan,O,B-MENU
+23621,naan,naan,O,I-MENU
 23622,",",",",O,O
 23623,et,et,O,O
-23624,trois,trois,O,O
-23625,curry,curry,O,B-MENU
+23624,trois,trois,O,B-MENU
+23625,curry,curry,O,I-MENU
 23626,à,à,O,O
 23627,base,base,O,O
 23628,de,de,O,O
@@ -24049,7 +24049,7 @@
 24047,you,you,O,O
 24048,ordered,ordered,O,O
 24049,the,the,O,O
-24050,Thali,Thali,O,B-MENU
+24050,Thali,Thali,O,O
 24051,",",",",O,O
 24052,most,most,O,O
 24053,of,of,O,O
@@ -24437,7 +24437,7 @@
 24435,food,food,O,O
 24436,.,.,O,O
 24437,The,The,O,O
-24438,curries,curries,O,O
+24438,curries,curries,O,B-MENU
 24439,are,are,O,O
 24440,sweet,sweet,O,O
 24441,and,and,O,O
@@ -24489,7 +24489,7 @@
 24487,Chicken,Chicken,I-MENU,I-MENU
 24488,at,at,O,O
 24489,Bombay,Bombay,O,O
-24490,Mahal,Mahal,O,O
+24490,Mahal,Mahal,O,I-MENU
 24491,.,.,O,O
 24492,In,In,O,O
 24493,them,them,O,O
@@ -24534,7 +24534,7 @@
 24532,a,a,O,O
 24533,few,few,O,O
 24534,cold,cold,B-MENU,O
-24535,beers,beers,I-MENU,B-MENU
+24535,beers,beers,I-MENU,O
 24536,.,.,O,O
 24537,And,And,O,O
 24538,some,some,O,O
@@ -24718,7 +24718,7 @@
 24716,both,both,O,O
 24717,got,got,O,O
 24718,the,the,O,O
-24719,vegetarian,vegetarian,B-MENU,B-MENU
+24719,vegetarian,vegetarian,B-MENU,O
 24720,thali,thali,I-MENU,I-MENU
 24721,.,.,O,O
 24722,The,The,O,O
@@ -24893,7 +24893,7 @@
 24891,had,had,O,O
 24892,a,a,O,O
 24893,veg,veg,B-MENU,B-MENU
-24894,thali,thali,I-MENU,I-MENU
+24894,thali,thali,I-MENU,B-MENU
 24895,and,and,O,O
 24896,butter,butter,B-MENU,B-MENU
 24897,chicken,chicken,I-MENU,I-MENU
@@ -25551,7 +25551,7 @@
 25549,chicken,chicken,O,O
 25550,and,and,O,O
 25551,the,the,O,O
-25552,rice,rice,B-MENU,B-MENU
+25552,rice,rice,B-MENU,O
 25553,had,had,O,O
 25554,no,no,O,O
 25555,spices,spices,O,O
@@ -25717,7 +25717,7 @@
 25715,with,with,O,O
 25716,the,the,O,O
 25717,steamed,steamed,B-MENU,B-MENU
-25718,basmati,basmati,I-MENU,B-MENU
+25718,basmati,basmati,I-MENU,I-MENU
 25719,rice,rice,I-MENU,I-MENU
 25720,.,.,O,O
 25721,I,I,O,O
@@ -25742,7 +25742,7 @@
 25740,.1,.1,O,O
 25741,star,star,O,O
 25742,for,for,O,O
-25743,nan,nan,O,O
+25743,nan,nan,O,B-MENU
 25744,the,the,O,O
 25745,rest,rest,O,O
 25746,.,.,O,O
@@ -25769,7 +25769,7 @@
 25767,watered,watered,O,O
 25768,down,down,O,O
 25769,like,like,O,O
-25770,soup,soup,B-MENU,O
+25770,soup,soup,B-MENU,B-MENU
 25771,.,.,O,O
 25772,walked,walked,O,O
 25773,out,out,O,O
@@ -25885,7 +25885,7 @@
 25883,que,que,O,O
 25884,le,le,O,O
 25885,pain,pain,O,O
-25886,naan,naan,O,O
+25886,naan,naan,O,I-MENU
 25887,était,était,O,O
 25888,bon.Good,bon.Good,O,O
 25889,place,place,O,O
@@ -26011,14 +26011,14 @@
 26009,Masala,Masala,I-MENU,I-MENU
 26010,!,!,O,O
 26011,Amazing,Amazing,O,O
-26012,rotis,rotis,O,O
+26012,rotis,rotis,O,B-MENU
 26013,!,!,O,O
 26014,Great,Great,O,O
 26015,place,place,O,O
 26016,!,!,O,O
 26017,Their,Their,O,O
 26018,handmade,handmade,O,O
-26019,rotis,rotis,O,O
+26019,rotis,rotis,O,B-MENU
 26020,are,are,O,O
 26021,great,great,O,O
 26022,!,!,O,O
@@ -26065,7 +26065,7 @@
 26063,got,got,O,O
 26064,the,the,O,O
 26065,veg,veg,B-MENU,B-MENU
-26066,thali,thali,I-MENU,O
+26066,thali,thali,I-MENU,I-MENU
 26067,",",",",O,O
 26068,and,and,O,O
 26069,my,my,O,O
@@ -26074,7 +26074,7 @@
 26072,the,the,O,O
 26073,non,non,O,O
 26074,veg,veg,B-MENU,O
-26075,thali,thali,I-MENU,O
+26075,thali,thali,I-MENU,I-MENU
 26076,.,.,O,O
 26077,All,All,O,O
 26078,the,the,O,O
@@ -26445,7 +26445,7 @@
 26443,we,we,O,O
 26444,ordered,ordered,O,O
 26445,the,the,O,O
-26446,Thali,Thali,B-MENU,B-MENU
+26446,Thali,Thali,B-MENU,O
 26447,",",",",O,O
 26448,just,just,O,O
 26449,managed,managed,O,O
@@ -26820,10 +26820,10 @@
 26818,US,US,O,O
 26819,but,but,O,O
 26820,this,this,O,O
-26821,thali,thali,B-MENU,O
+26821,thali,thali,B-MENU,B-MENU
 26822,was,was,O,O
 26823,prison,prison,O,O
-26824,thali,thali,O,O
+26824,thali,thali,O,B-MENU
 26825,compared,compared,O,O
 26826,to,to,O,O
 26827,that,that,O,O
@@ -26860,15 +26860,15 @@
 26858,was,was,O,O
 26859,left,left,O,O
 26860,eating,eating,O,O
-26861,rice,rice,B-MENU,O
+26861,rice,rice,B-MENU,B-MENU
 26862,with,with,O,O
 26863,naan,naan,B-MENU,B-MENU
 26864,and,and,O,O
 26865,pouring,pouring,O,O
 26866,the,the,O,O
 26867,florescent,florescent,O,O
-26868,green,green,O,B-MENU
-26869,sauce,sauce,B-MENU,I-MENU
+26868,green,green,O,O
+26869,sauce,sauce,B-MENU,O
 26870,on,on,O,O
 26871,top,top,O,O
 26872,of,of,O,O
@@ -26923,8 +26923,8 @@
 26921,was,was,O,O
 26922,watery,watery,O,O
 26923,weak,weak,O,O
-26924,orange,orange,B-MENU,B-MENU
-26925,sauce,sauce,I-MENU,I-MENU
+26924,orange,orange,B-MENU,O
+26925,sauce,sauce,I-MENU,O
 26926,.,.,O,O
 26927,Hot,Hot,O,O
 26928,cheetos,cheetos,O,O
@@ -26932,7 +26932,7 @@
 26930,more,more,O,O
 26931,color,color,O,O
 26932,and,and,O,O
-26933,pizzazz,pizzazz,O,B-MENU
+26933,pizzazz,pizzazz,O,O
 26934,.,.,O,O
 26935,The,The,O,O
 26936,lentils,lentils,O,B-MENU
@@ -27018,7 +27018,7 @@
 27016,out,out,O,O
 27017,the,the,O,O
 27018,watery,watery,O,O
-27019,thali,thali,O,B-MENU
+27019,thali,thali,O,O
 27020,is,is,O,O
 27021,unfriendly,unfriendly,O,O
 27022,and,and,O,O
@@ -27070,7 +27070,7 @@
 27068,get,get,O,O
 27069,prison,prison,O,O
 27070,tray,tray,O,O
-27071,thali,thali,B-MENU,O
+27071,thali,thali,B-MENU,B-MENU
 27072,.,.,O,O
 27073,Be,Be,O,O
 27074,generous,generous,O,O
@@ -27210,14 +27210,14 @@
 27208,steaming,steaming,O,O
 27209,hot,hot,O,O
 27210,.,.,O,O
-27211,Lollipop,Lollipop,B-MENU,O
+27211,Lollipop,Lollipop,B-MENU,B-MENU
 27212,chicken,chicken,I-MENU,I-MENU
 27213,-,-,O,O
 27214,4,4,O,O
 27215,/,/,O,O
 27216,5,5,O,O
-27217,Chicken,Chicken,B-MENU,O
-27218,Wings,Wings,I-MENU,O
+27217,Chicken,Chicken,B-MENU,B-MENU
+27218,Wings,Wings,I-MENU,I-MENU
 27219,-,-,O,O
 27220,5,5,O,O
 27221,/,/,O,O
@@ -27247,7 +27247,7 @@
 27245,4,4,O,O
 27246,/,/,O,O
 27247,5,5,O,O
-27248,Szechuan,Szechuan,B-MENU,O
+27248,Szechuan,Szechuan,B-MENU,B-MENU
 27249,fish,fish,I-MENU,I-MENU
 27250,(,(,O,O
 27251,gravy,gravy,O,O
@@ -27256,7 +27256,7 @@
 27254,5,5,O,O
 27255,/,/,O,O
 27256,5,5,O,O
-27257,House,House,B-MENU,O
+27257,House,House,B-MENU,B-MENU
 27258,fried,fried,I-MENU,B-MENU
 27259,noodles,noodles,I-MENU,I-MENU
 27260,-,-,O,O
@@ -27448,7 +27448,7 @@
 27446,the,the,O,O
 27447,CC,CC,O,O
 27448,and,and,O,O
-27449,Soup,Soup,O,O
+27449,Soup,Soup,O,B-MENU
 27450,special,special,O,O
 27451,-,-,O,O
 27452,$5.95,$5.95,O,O
@@ -27458,7 +27458,7 @@
 27456,The,The,O,O
 27457,Hot,Hot,B-MENU,B-MENU
 27458,and,and,I-MENU,I-MENU
-27459,Sour,Sour,I-MENU,B-MENU
+27459,Sour,Sour,I-MENU,I-MENU
 27460,soup,soup,I-MENU,I-MENU
 27461,was,was,O,O
 27462,thick,thick,O,O
@@ -27742,13 +27742,13 @@
 27740,Hakka,Hakka,O,O
 27741,house,house,O,O
 27742,special,special,O,O
-27743,noodles,noodles,O,I-MENU
+27743,noodles,noodles,O,B-MENU
 27744,and,and,O,O
 27745,the,the,O,O
 27746,honey,honey,O,B-MENU
 27747,garlic,garlic,B-MENU,I-MENU
 27748,chicken,chicken,I-MENU,I-MENU
-27749,wings,wings,I-MENU,O
+27749,wings,wings,I-MENU,I-MENU
 27750,.,.,O,O
 27751,The,The,O,O
 27752,service,service,O,O
@@ -28472,7 +28472,7 @@
 28470,As,As,O,O
 28471,was,was,O,O
 28472,the,the,O,O
-28473,Hakka,Hakka,B-MENU,O
+28473,Hakka,Hakka,B-MENU,B-MENU
 28474,noodle,noodle,I-MENU,I-MENU
 28475,dish,dish,O,O
 28476,.,.,O,O
@@ -28759,10 +28759,10 @@
 28757,which,which,O,O
 28758,includes,includes,O,O
 28759,Tin,Tin,O,O
-28760,Tin,Tin,O,O
+28760,Tin,Tin,O,I-MENU
 28761,Congee,Congee,O,I-MENU
 28762,",",",",O,O
-28763,Hakka,Hakka,O,O
+28763,Hakka,Hakka,O,B-MENU
 28764,and,and,O,O
 28765,Noodle,Noodle,B-MENU,B-MENU
 28766,on,on,O,O
@@ -29346,8 +29346,8 @@
 29344,.,.,O,O
 29345,It,It,O,O
 29346,was,was,O,O
-29347,hot,hot,B-MENU,O
-29348,and,and,I-MENU,O
+29347,hot,hot,B-MENU,B-MENU
+29348,and,and,I-MENU,I-MENU
 29349,sour,sour,I-MENU,I-MENU
 29350,soup,soup,I-MENU,I-MENU
 29351,",",",",O,O
@@ -29453,7 +29453,7 @@
 29451,with,with,O,O
 29452,the,the,O,O
 29453,usual,usual,O,O
-29454,sweet,sweet,B-MENU,B-MENU
+29454,sweet,sweet,B-MENU,O
 29455,and,and,I-MENU,I-MENU
 29456,sour,sour,I-MENU,I-MENU
 29457,chicken,chicken,I-MENU,I-MENU
@@ -29574,7 +29574,7 @@
 29572,pick,pick,O,O
 29573,one,one,O,O
 29574,:,:,O,O
-29575,Veggie,Veggie,B-MENU,O
+29575,Veggie,Veggie,B-MENU,B-MENU
 29576,Spring,Spring,I-MENU,I-MENU
 29577,Roll,Roll,I-MENU,I-MENU
 29578,",",",",O,O
@@ -29582,7 +29582,7 @@
 29580,Pop,Pop,B-MENU,O
 29581,",",",",O,O
 29582,or,or,O,O
-29583,Soup,Soup,B-MENU,O
+29583,Soup,Soup,B-MENU,B-MENU
 29584,of,of,O,O
 29585,the,the,O,O
 29586,Day,Day,O,O
@@ -29599,7 +29599,7 @@
 29597,Chicken,Chicken,B-MENU,B-MENU
 29598,Hot,Hot,I-MENU,I-MENU
 29599,&,&,I-MENU,I-MENU
-29600,Sour,Sour,I-MENU,B-MENU
+29600,Sour,Sour,I-MENU,I-MENU
 29601,Soup,Soup,I-MENU,I-MENU
 29602,.,.,O,O
 29603,The,The,O,O
@@ -29626,7 +29626,7 @@
 29624,husband,husband,O,O
 29625,ordered,ordered,O,O
 29626,the,the,O,O
-29627,Combo,Combo,O,O
+29627,Combo,Combo,O,B-MENU
 29628,A,A,O,O
 29629,Lunch,Lunch,O,O
 29630,Special,Special,O,O
@@ -29742,7 +29742,7 @@
 29740,the,the,O,O
 29741,machurian,machurian,B-MENU,B-MENU
 29742,chicken,chicken,I-MENU,I-MENU
-29743,and,and,O,I-MENU
+29743,and,and,O,O
 29744,fish,fish,B-MENU,B-MENU
 29745,pakora,pakora,I-MENU,I-MENU
 29746,were,were,O,O
@@ -30306,8 +30306,8 @@
 30304,fresh,fresh,O,O
 30305,.,.,O,O
 30306,Hakka,Hakka,O,B-MENU
-30307,Bros,Bros,O,I-MENU
-30308,Chicken,Chicken,B-MENU,I-MENU
+30307,Bros,Bros,O,O
+30308,Chicken,Chicken,B-MENU,B-MENU
 30309,Chilli,Chilli,I-MENU,I-MENU
 30310,Chicken,Chicken,O,I-MENU
 30311,Dry,Dry,O,I-MENU
@@ -30450,8 +30450,8 @@
 30448,in,in,O,O
 30449,Toronto,Toronto,O,O
 30450,.,.,O,O
-30451,Bombay,Bombay,B-MENU,O
-30452,tiger,tiger,I-MENU,O
+30451,Bombay,Bombay,B-MENU,B-MENU
+30452,tiger,tiger,I-MENU,I-MENU
 30453,prawns,prawns,I-MENU,I-MENU
 30454,are,are,O,O
 30455,a,a,O,O
@@ -30769,7 +30769,7 @@
 30767,.,.,O,O
 30768,Vegetarian,Vegetarian,B-MENU,B-MENU
 30769,Manchurian,Manchurian,I-MENU,I-MENU
-30770,balls,balls,O,O
+30770,balls,balls,O,I-MENU
 30771,were,were,O,O
 30772,my,my,O,O
 30773,favourite,favourite,O,O
@@ -30790,7 +30790,7 @@
 30788,more,more,O,O
 30789,like,like,O,O
 30790,barbecue,barbecue,B-MENU,O
-30791,paneer,paneer,I-MENU,B-MENU
+30791,paneer,paneer,I-MENU,O
 30792,.,.,O,O
 30793,The,The,O,O
 30794,Hakka,Hakka,B-MENU,B-MENU
@@ -30885,7 +30885,7 @@
 30883,chicken,chicken,I-MENU,I-MENU
 30884,and,and,O,O
 30885,dry,dry,O,B-MENU
-30886,manchurian,manchurian,B-MENU,I-MENU
+30886,manchurian,manchurian,B-MENU,B-MENU
 30887,beef,beef,I-MENU,I-MENU
 30888,.,.,O,O
 30889,They,They,O,O
@@ -31180,7 +31180,7 @@
 31178,wage,wage,O,O
 31179,rise,rise,O,O
 31180,.,.,O,O
-31181,Soup,Soup,B-MENU,O
+31181,Soup,Soup,B-MENU,B-MENU
 31182,is,is,O,O
 31183,especially,especially,O,O
 31184,great,great,O,O
@@ -32097,7 +32097,7 @@
 32095,Manchurian,Manchurian,O,B-MENU
 32096,and,and,O,O
 32097,chili,chili,O,B-MENU
-32098,dishes,dishes,O,O
+32098,dishes,dishes,O,I-MENU
 32099,are,are,O,O
 32100,bland,bland,O,O
 32101,.,.,O,O
@@ -32119,7 +32119,7 @@
 32117,the,the,O,O
 32118,meat,meat,O,O
 32119,and,and,O,O
-32120,shrimp,shrimp,O,O
+32120,shrimp,shrimp,O,I-MENU
 32121,in,in,O,O
 32122,the,the,O,O
 32123,fried,fried,B-MENU,B-MENU
@@ -32360,7 +32360,7 @@
 32358,and,and,O,O
 32359,also,also,O,O
 32360,the,the,O,O
-32361,Soup,Soup,B-MENU,O
+32361,Soup,Soup,B-MENU,B-MENU
 32362,of,of,O,O
 32363,the,the,O,O
 32364,Day,Day,O,O
@@ -32410,8 +32410,8 @@
 32408,don't,don't,O,O
 32409,recommend,recommend,O,O
 32410,getting,getting,O,O
-32411,pad,pad,O,O
-32412,Thai,Thai,O,O
+32411,pad,pad,O,B-MENU
+32412,Thai,Thai,O,I-MENU
 32413,.,.,O,O
 32414,Chilli,Chilli,B-MENU,B-MENU
 32415,chicken,chicken,I-MENU,I-MENU
@@ -32547,7 +32547,7 @@
 32545,!,!,O,O
 32546,The,The,O,O
 32547,best,best,O,O
-32548,curry,curry,B-MENU,O
+32548,curry,curry,B-MENU,B-MENU
 32549,in,in,O,O
 32550,Calgary,Calgary,O,O
 32551,",",",",O,O
@@ -32842,7 +32842,7 @@
 32840,got,got,O,O
 32841,one,one,O,O
 32842,rice,rice,B-MENU,B-MENU
-32843,dish,dish,O,I-MENU
+32843,dish,dish,O,O
 32844,",",",",O,O
 32845,garlic,garlic,B-MENU,B-MENU
 32846,nan,nan,I-MENU,I-MENU
@@ -32899,7 +32899,7 @@
 32897,basically,basically,O,O
 32898,a,a,O,O
 32899,egg,egg,O,B-MENU
-32900,scrambled,scrambled,O,I-MENU
+32900,scrambled,scrambled,O,O
 32901,in,in,O,O
 32902,rice,rice,B-MENU,B-MENU
 32903,.,.,O,O
@@ -33550,7 +33550,7 @@
 33548,East,East,O,O
 33549,Indian,Indian,O,O
 33550,CHIKEN,CHIKEN,B-MENU,O
-33551,TIKKA,TIKKA,I-MENU,O
+33551,TIKKA,TIKKA,I-MENU,I-MENU
 33552,ROLL,ROLL,I-MENU,O
 33553,",",",",O,O
 33554,it's,it's,O,O
@@ -33772,7 +33772,7 @@
 33770,photo,photo,O,O
 33771,showed,showed,O,O
 33772,a,a,O,O
-33773,marinated,marinated,B-MENU,B-MENU
+33773,marinated,marinated,B-MENU,O
 33774,fish,fish,I-MENU,B-MENU
 33775,kebab,kebab,I-MENU,I-MENU
 33776,but,but,O,O
@@ -34098,7 +34098,7 @@
 34096,I,I,O,O
 34097,like,like,O,O
 34098,Faisal's,Faisal's,O,O
-34099,kabab,kabab,O,O
+34099,kabab,kabab,O,B-MENU
 34100,more,more,O,O
 34101,.,.,O,O
 34102,I,I,O,O
@@ -34852,7 +34852,7 @@
 34850,is,is,O,O
 34851,the,the,O,O
 34852,special,special,B-MENU,O
-34853,Lunch,Lunch,I-MENU,B-MENU
+34853,Lunch,Lunch,I-MENU,O
 34854,Thali,Thali,I-MENU,I-MENU
 34855,where,where,O,O
 34856,they,they,O,O
@@ -35141,7 +35141,7 @@
 35139,a,a,O,O
 35140,cold,cold,O,O
 35141,salty,salty,B-MENU,O
-35142,lassi,lassi,I-MENU,B-MENU
+35142,lassi,lassi,I-MENU,I-MENU
 35143,.,.,O,O
 35144,The,The,O,O
 35145,food,food,O,O
@@ -35933,7 +35933,7 @@
 35931,and,and,O,O
 35932,the,the,O,O
 35933,fresh,fresh,O,O
-35934,nann,nann,B-MENU,O
+35934,nann,nann,B-MENU,B-MENU
 35935,bread,bread,I-MENU,O
 35936,is,is,O,O
 35937,made,made,O,O
@@ -36150,7 +36150,7 @@
 36148,We,We,O,O
 36149,had,had,O,O
 36150,plain,plain,O,B-MENU
-36151,and,and,O,O
+36151,and,and,O,I-MENU
 36152,coconut,coconut,O,I-MENU
 36153,",",",",O,O
 36154,also,also,O,O
@@ -36342,7 +36342,7 @@
 36340,with,with,O,O
 36341,a,a,O,O
 36342,tamarind,tamarind,B-MENU,O
-36343,sauce,sauce,I-MENU,I-MENU
+36343,sauce,sauce,I-MENU,O
 36344,but,but,O,O
 36345,they,they,O,O
 36346,provided,provided,O,O
@@ -36350,7 +36350,7 @@
 36348,type,type,O,O
 36349,of,of,O,O
 36350,yogurt,yogurt,B-MENU,O
-36351,sauce,sauce,I-MENU,I-MENU
+36351,sauce,sauce,I-MENU,O
 36352,instead,instead,O,O
 36353,.,.,O,O
 36354,We,We,O,O
@@ -36793,7 +36793,7 @@
 36791,homemade,homemade,O,O
 36792,vanilla,vanilla,B-MENU,O
 36793,",",",",O,O
-36794,pistachio,pistachio,B-MENU,O
+36794,pistachio,pistachio,B-MENU,B-MENU
 36795,",",",",O,O
 36796,and,and,O,O
 36797,mango,mango,B-MENU,B-MENU
@@ -36903,7 +36903,7 @@
 36901,and,and,O,O
 36902,a,a,O,O
 36903,veggie,veggie,B-MENU,B-MENU
-36904,ball,ball,I-MENU,O
+36904,ball,ball,I-MENU,I-MENU
 36905,(,(,O,O
 36906,I,I,O,O
 36907,totally,totally,O,O
@@ -37434,7 +37434,7 @@
 37432,like,like,O,O
 37433,butter,butter,B-MENU,B-MENU
 37434,chicken,chicken,I-MENU,I-MENU
-37435,Samosas,Samosas,I-MENU,B-MENU
+37435,Samosas,Samosas,I-MENU,I-MENU
 37436,were,were,O,O
 37437,cold,cold,O,O
 37438,Naan,Naan,B-MENU,B-MENU
@@ -37511,8 +37511,8 @@
 37509,.,.,O,O
 37510,Hers,Hers,O,O
 37511,",",",",O,O
-37512,veggie,veggie,O,B-MENU
-37513,and,and,O,O
+37512,veggie,veggie,O,O
+37513,and,and,O,I-MENU
 37514,sweet,sweet,O,I-MENU
 37515,(,(,O,O
 37516,coconut,coconut,B-MENU,B-MENU
@@ -38330,7 +38330,7 @@
 38328,got,got,O,O
 38329,the,the,O,O
 38330,chicken,chicken,B-MENU,B-MENU
-38331,and,and,I-MENU,I-MENU
+38331,and,and,I-MENU,O
 38332,rice,rice,I-MENU,B-MENU
 38333,with,with,O,O
 38334,no,no,O,O
@@ -39741,7 +39741,7 @@
 39739,and,and,O,O
 39740,even,even,O,O
 39741,the,the,O,O
-39742,fish,fish,O,O
+39742,fish,fish,O,B-MENU
 39743,was,was,O,O
 39744,fresh,fresh,O,O
 39745,enough,enough,O,O
@@ -39805,7 +39805,7 @@
 39803,sambar,sambar,O,B-MENU
 39804,but,but,O,O
 39805,both,both,O,O
-39806,soups,soups,B-MENU,B-MENU
+39806,soups,soups,B-MENU,O
 39807,were,were,O,O
 39808,very,very,O,O
 39809,light,light,O,O
@@ -39820,7 +39820,7 @@
 39818,from,from,O,O
 39819,long,long,O,O
 39820,grain,grain,O,O
-39821,rice,rice,B-MENU,O
+39821,rice,rice,B-MENU,B-MENU
 39822,and,and,O,O
 39823,were,were,O,O
 39824,very,very,O,O
@@ -39831,7 +39831,7 @@
 39829,dum,dum,B-MENU,B-MENU
 39830,aloo,aloo,I-MENU,I-MENU
 39831,(,(,O,O
-39832,baby,baby,O,B-MENU
+39832,baby,baby,O,O
 39833,potato,potato,B-MENU,B-MENU
 39834,curry,curry,I-MENU,I-MENU
 39835,),),O,O
@@ -39857,7 +39857,7 @@
 39855,and,and,O,O
 39856,one,one,O,O
 39857,egg,egg,O,B-MENU
-39858,dish,dish,O,O
+39858,dish,dish,O,I-MENU
 39859,and,and,O,O
 39860,offered,offered,O,O
 39861,three,three,O,O
@@ -39913,7 +39913,7 @@
 39911,be,be,O,O
 39912,bad,bad,O,O
 39913,but,but,O,O
-39914,dhal,dhal,B-MENU,O
+39914,dhal,dhal,B-MENU,B-MENU
 39915,tadka,tadka,I-MENU,I-MENU
 39916,looked,looked,O,O
 39917,fun,fun,O,O
@@ -39977,7 +39977,7 @@
 39975,halwa,halwa,B-MENU,B-MENU
 39976,was,was,O,O
 39977,a,a,O,O
-39978,vegetable,vegetable,O,B-MENU
+39978,vegetable,vegetable,O,O
 39979,packed,packed,O,O
 39980,carrot,carrot,B-MENU,O
 39981,pudding,pudding,I-MENU,I-MENU
@@ -40051,12 +40051,12 @@
 40049,.,.,O,O
 40050,Specially,Specially,O,O
 40051,spicy,spicy,B-MENU,B-MENU
-40052,chicken,chicken,I-MENU,B-MENU
+40052,chicken,chicken,I-MENU,I-MENU
 40053,tandoori,tandoori,I-MENU,I-MENU
 40054,and,and,O,O
 40055,dry,dry,O,O
 40056,black,black,B-MENU,B-MENU
-40057,paper,paper,I-MENU,B-MENU
+40057,paper,paper,I-MENU,I-MENU
 40058,chicken,chicken,I-MENU,I-MENU
 40059,.,.,O,O
 40060,Just,Just,O,O
@@ -40692,7 +40692,7 @@
 40690,fantastic,fantastic,O,O
 40691,",",",",O,O
 40692,the,the,O,O
-40693,masala,masala,O,B-MENU
+40693,masala,masala,O,O
 40694,was,was,O,O
 40695,creamy,creamy,O,O
 40696,and,and,O,O
@@ -41157,8 +41157,8 @@
 41155,to,to,O,O
 41156,place,place,O,O
 41157,Only,Only,O,O
-41158,medu,medu,O,O
-41159,wada,wada,O,O
+41158,medu,medu,O,B-MENU
+41159,wada,wada,O,I-MENU
 41160,is,is,O,O
 41161,good,good,O,O
 41162,but,but,O,O
@@ -41630,7 +41630,7 @@
 41628,liked,liked,O,O
 41629,the,the,O,O
 41630,spicy,spicy,B-MENU,B-MENU
-41631,fish,fish,I-MENU,B-MENU
+41631,fish,fish,I-MENU,I-MENU
 41632,curry,curry,I-MENU,I-MENU
 41633,and,and,O,O
 41634,the,the,O,O
@@ -41701,8 +41701,8 @@
 41699,was,was,O,O
 41700,good,good,O,O
 41701,.,.,O,O
-41702,Triple,Triple,O,B-MENU
-41703,schezwan,schezwan,B-MENU,I-MENU
+41702,Triple,Triple,O,O
+41703,schezwan,schezwan,B-MENU,B-MENU
 41704,noodles,noodles,I-MENU,I-MENU
 41705,are,are,O,O
 41706,also,also,O,O
@@ -42509,7 +42509,7 @@
 42507,a,a,O,O
 42508,pitcher,pitcher,O,O
 42509,of,of,O,O
-42510,ice,ice,O,B-MENU
+42510,ice,ice,O,O
 42511,water,water,O,O
 42512,",",",",O,O
 42513,but,but,O,O
@@ -42767,7 +42767,7 @@
 42765,is,is,O,O
 42766,casualI,casualI,O,O
 42767,tried,tried,O,O
-42768,gobi,gobi,B-MENU,O
+42768,gobi,gobi,B-MENU,B-MENU
 42769,Manchurian,Manchurian,I-MENU,I-MENU
 42770,it,it,O,O
 42771,was,was,O,O
@@ -43676,7 +43676,7 @@
 43674,were,were,O,O
 43675,more,more,O,O
 43676,like,like,O,O
-43677,sauces,sauces,B-MENU,O
+43677,sauces,sauces,B-MENU,B-MENU
 43678,than,than,O,O
 43679,a,a,O,O
 43680,traditional,traditional,O,O
@@ -43687,7 +43687,7 @@
 43685,-,-,O,O
 43686,tomato,tomato,O,O
 43687,",",",",O,O
-43688,mint,mint,O,B-MENU
+43688,mint,mint,O,I-MENU
 43689,and,and,O,I-MENU
 43690,coconut,coconut,O,I-MENU
 43691,(,(,O,O
@@ -44079,7 +44079,7 @@
 44077,),),O,O
 44078,Number,Number,O,O
 44079,of,of,O,O
-44080,chettinad,chettinad,O,O
+44080,chettinad,chettinad,O,B-MENU
 44081,dishes,dishes,O,O
 44082,:,:,O,O
 44083,0,0,O,O
@@ -44788,7 +44788,7 @@
 44786,",",",",O,O
 44787,goat,goat,B-MENU,B-MENU
 44788,curry,curry,I-MENU,I-MENU
-44789,&,&,O,I-MENU
+44789,&,&,O,O
 44790,chicken,chicken,B-MENU,B-MENU
 44791,biryaani,biryaani,I-MENU,I-MENU
 44792,were,were,O,O
@@ -45340,8 +45340,8 @@
 45338,chicken,chicken,B-MENU,B-MENU
 45339,Briyani,Briyani,I-MENU,I-MENU
 45340,and,and,O,O
-45341,chicken,chicken,B-MENU,O
-45342,65,65,I-MENU,O
+45341,chicken,chicken,B-MENU,B-MENU
+45342,65,65,I-MENU,I-MENU
 45343,.,.,O,O
 45344,.,.,O,O
 45345,The,The,O,O
@@ -46260,7 +46260,7 @@
 46258,ordered,ordered,O,O
 46259,a,a,O,O
 46260,curry,curry,B-MENU,B-MENU
-46261,dish,dish,O,O
+46261,dish,dish,O,I-MENU
 46262,),),O,O
 46263,",",",",O,O
 46264,and,and,O,O
@@ -46513,7 +46513,7 @@
 46511,friend,friend,O,O
 46512,ordered,ordered,O,O
 46513,some,some,O,O
-46514,bread,bread,O,B-MENU
+46514,bread,bread,O,O
 46515,(,(,O,O
 46516,kulcha,kulcha,B-MENU,B-MENU
 46517,),),O,O

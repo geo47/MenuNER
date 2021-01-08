@@ -38,9 +38,18 @@ if __name__ == '__main__':
     data = read_data()
     print(data.train_dl.dataset.df)
 
+    device = "cuda:0"
+
     model = BERTBiLSTMCRF.create(
-        len(data.train_ds.idx2label), model_name="/home/muzamil/Projects/Python/NLP/BERT-NER/model/cased_L-12_H-768_A-12/",
+        len(data.train_ds.idx2label), model_name="/home/muzamil/Projects/Python/NLP/MenuNER/model/FoodieBERT/cased_L-12_H-768_A-12",
         lstm_dropout=0.1, crf_dropout=0.3)
+
+    # model = BERTBiLSTMNCRF.create(
+    #     len(data.train_ds.idx2label), model_name="/home/muzamil/Projects/Python/NLP/MenuNER/model/FoodieBERT/cased_L-12_H-768_A-12",
+    #     lstm_dropout=0., crf_dropout=0.3, nbest=len(data.train_ds.idx2label) - 1,
+    #     device=device)
+
+
 
     # print_model_params(model, True, True)
 
