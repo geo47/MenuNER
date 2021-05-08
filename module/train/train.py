@@ -5,7 +5,7 @@ from sklearn_crfsuite.metrics import flat_classification_report
 
 from module import tqdm
 from module.analyze.plot_metrices import get_mean_max_metric
-from module.data.bert_data import get_data_loader_for_predict
+from data.bert_data import get_data_loader_for_predict
 from module.train.optimization import BertAdam
 
 

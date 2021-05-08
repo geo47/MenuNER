@@ -1,6 +1,6 @@
 from module.models.bert_models import BERTBiLSTMCRF
-from module.data.bert_data import get_data_loader_for_predict
-from module.data import bert_data
+from data.bert_data import get_data_loader_for_predict
+from data import bert_data
 from module.train.train import NerLearner
 from module.analyze.utils import bert_labels2tokens
 

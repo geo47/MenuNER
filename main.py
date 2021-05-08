@@ -1,15 +1,13 @@
 from sklearn_crfsuite.metrics import flat_classification_report
 
 from module.analyze.utils import bert_labels2tokens
-from module.data.bert_data import get_data_loader_for_predict
-from module.data.conll2003.pre_process import conll2003_preprocess
-from module.data import bert_data
+from data.bert_data import get_data_loader_for_predict
+from data.conll2003 import conll2003_preprocess
+from data import bert_data
 from module.models.bert_models import BERTBiLSTMCRF
 from module.train.train import NerLearner
 
 from seqeval.metrics import classification_report
-
-from module.utils import print_model_params
 
 import pandas as pd
 
