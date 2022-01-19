@@ -42,3 +42,20 @@ The best results achieved by the model:
     --use_mha
     --bert_use_feature_based
     --use_crf
+
+### Citation
+
+```
+@Article{app11136007,
+AUTHOR = {Syed, Muzamil Hussain and Chung, Sun-Tae},
+TITLE = {MenuNER: Domain-Adapted BERT Based NER Approach for a Domain with Limited Dataset and Its Application to Food Menu Domain},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {13},
+ARTICLE-NUMBER = {6007},
+URL = {https://www.mdpi.com/2076-3417/11/13/6007},
+ISSN = {2076-3417},
+DOI = {10.3390/app11136007}
+}
+```
