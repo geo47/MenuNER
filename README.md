@@ -1,6 +1,6 @@
 # MenuNER
 
-Implementation for the paper <b>"[MenuNER: Food Menu Named Entity Recognition using Domain Adapted Embedding as Feature and Deep Learning Approach](https://www.mdpi.com/2076-3417/11/13/6007)"</b>
+Implementation for the paper <b>"[MenuNER: Domain-Adapted BERT Based NER Approach for a Domain with Limited Dataset and Its Application to Food Menu Domain](https://www.mdpi.com/2076-3417/11/13/6007)"</b>
 
 The best results achieved by the model:
 
